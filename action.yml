@@ -1,0 +1,10 @@
+name: Composer Install Action
+description: Install the defined Composer dependencies for your project
+author: Pieter Maene
+branding:
+  icon: package
+  color: blue
+
+runs:
+  using: docker
+  image: Dockerfile
