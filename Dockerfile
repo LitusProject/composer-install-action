@@ -1,4 +1,4 @@
-FROM composer:2.1.4 AS composer
+FROM composer:2.1.5 AS composer
 
 WORKDIR /
 COPY entrypoint.sh /
